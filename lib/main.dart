@@ -57,7 +57,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     mq = MediaQuery.of(context).size;
     return GetMaterialApp(
-      title: "Animal Voice And Ringtone App",
+      title: "AnimalVR",
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         scaffoldBackgroundColor: CupertinoColors.white,
