@@ -6,7 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import '../model/all_animals_model.dart';
 
-class PetAnimalsPovider extends ChangeNotifier {
+class PetAnimalsProvider extends ChangeNotifier {
   final dio = Dio();
   String dynamicUrl =
       "https://appy.trycatchtech.com/v3/animal_sound_prank_and_ringtones/animal_sound_prank_and_ringtones_child_category_list?parent_id=1";

@@ -15,14 +15,14 @@ class _PetAnimalState extends State<PetAnimal> {
   @override
   void initState() {
     super.initState();
-    context.read<PetAnimalsPovider>().getPetAnimalCategory();
+    context.read<PetAnimalsProvider>().getPetAnimalCategory();
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text("Pet Animal")),
-      body: Consumer<PetAnimalsPovider>(
+      body: Consumer<PetAnimalsProvider>(
         builder: (context, controller, child) {
           if (controller.getPetAnimalCategoryData.isEmpty) {
             return const Center(child: CircularProgressIndicator());

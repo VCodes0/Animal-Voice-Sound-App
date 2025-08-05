@@ -37,7 +37,7 @@ Future<void> main() async {
         ChangeNotifierProvider(create: (_) => WildAnimalsProvider()),
         ChangeNotifierProvider(create: (_) => LandAnimalsProvider()),
         ChangeNotifierProvider(create: (_) => FarmAnimalProvider()),
-        ChangeNotifierProvider(create: (_) => PetAnimalsPovider()),
+        ChangeNotifierProvider(create: (_) => PetAnimalsProvider()),
         ChangeNotifierProvider(create: (_) => AllAnimalProvider()),
         ChangeNotifierProvider(create: (_) => InsectsProvider()),
         ChangeNotifierProvider(create: (_) => MammalsProvider()),
